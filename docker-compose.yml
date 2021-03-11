@@ -9,8 +9,7 @@ services:
   boompow-client:
     build: ./boompow-client
     image: boompow-client
-    command: --limit-logging --async_mode --payout ban_3f53c3ropjec1yrfimp6ic3fdjn6mqaid9ctsp6678z8f9kweqksux8xykpm
- --worker_uri nano-work-server:7000
+    command: --limit-logging --async_mode --payout ban_3f53c3ropjec1yrfimp6ic3fdjn6mqaid9ctsp6678z8f9kweqksux8xykpm --worker_uri nano-work-server:7000
     
   dpow-client:
     build: ./dpow-client
